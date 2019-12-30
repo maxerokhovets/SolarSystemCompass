@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.compass.Main6Activity" android:background="@drawable/rolingsky">
+
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="199dp"
+            android:id="@+id/hor_coord_view"
+            android:textColor="#FFFFFF" android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="69dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="463dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="55dp" android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+            android:text="Refresh"
+            android:layout_width="158dp"
+            android:layout_height="59dp"
+            android:id="@+id/button13"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="584dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="88dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="126dp" android:layout_marginEnd="127dp"
+            app:layout_constraintEnd_toEndOf="parent" style="@android:style/Widget.Holo.Button"
+            android:onClick="onRefreshClick"/>
+    <TextView
+            android:text="*"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="124dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="575dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="274dp" android:layout_marginEnd="127dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/edit_decl"
+            android:textColor="#FFFFFF" android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="114dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="564dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="296dp" android:layout_marginEnd="30dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+            android:layout_width="234dp"
+            android:layout_height="313dp" app:srcCompat="@drawable/arrowfinal"
+            android:id="@+id/arrow"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="268dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="150dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="88dp" android:layout_marginEnd="89dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

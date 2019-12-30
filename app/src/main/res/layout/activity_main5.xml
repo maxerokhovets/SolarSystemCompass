@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.compass.Main5Activity" android:background="@drawable/space">
+
+    <Button
+            android:text="Enter location"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/button10" style="@android:style/Widget.Holo.Button"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="160dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="511dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="33dp" android:layout_marginEnd="228dp"
+            app:layout_constraintEnd_toEndOf="parent" android:onClick="onEnterCoordClick"/>
+    <Button
+            android:text="Use device location"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/button11" style="@android:style/Widget.Holo.Button"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="84dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="587dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="33dp" android:layout_marginEnd="228dp"
+            app:layout_constraintEnd_toEndOf="parent" android:onClick="onUseDeviceLocationClick"/>
+    <Button
+            android:text="About"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/button12" style="@android:style/Widget.Holo.Button"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="236dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="435dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="33dp" android:layout_marginEnd="228dp"
+            app:layout_constraintEnd_toEndOf="parent" android:onClick="onAboutClick"/>
+    <TextView
+            android:text="Solar        System Compass"
+            android:layout_width="245dp"
+            android:layout_height="197dp"
+            android:id="@+id/textView10" android:textSize="55sp"
+            android:textAllCaps="false" android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="427dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="107dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="136dp" android:layout_marginEnd="30dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.compass.solarsystemcompassapp"
+            android:versionCode="2"
+            android:versionName="1.0.1">
+
+    <supports-screens
+            android:anyDensity="true"
+            android:largeScreens="true"
+            android:normalScreens="true"
+            android:smallScreens="false"
+            android:xlargeScreens="false"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher_solar_system"
+            android:label="Solar System Compass"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name="com.compass.Main7Activity">
+        </activity>
+        <activity android:name="com.compass.Main6Activity">
+        </activity>
+        <activity android:name="com.compass.Main5Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.compass.Main4Activity">
+        </activity>
+        <activity android:name="com.compass.Main3Activity">
+        </activity>
+        <activity android:name="com.compass.Main2Activity">
+        </activity>
+        <activity android:name="com.compass.MainActivity">
+        </activity>
+    </application>
+
+</manifest>

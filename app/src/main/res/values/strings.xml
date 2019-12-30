@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SolarSystemCompassApp</string>
+    <string name="enter_your_location">Enter your location</string>
+    <string name="latitude">Latitude</string>
+</resources>
